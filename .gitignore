@@ -9,9 +9,17 @@ wheels/
 # Virtual environments
 .venv
 
+# clang
+.clangd
+
+# Others
+.ropeproject/
+
 # Project
 data/MNIST/raw/*
 data/models/*
+
+out/*
 
 # Exceptions
 !.gitkeep
