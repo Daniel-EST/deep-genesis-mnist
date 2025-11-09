@@ -99,7 +99,7 @@ u8 mnist_forward(MNISTModel *model, const fix32 *input, fix32 *out) {
   linear_forward(&model->fc2, fc1_out, fc2_out);
   relu(fc2_out, model->fc2.out_features);
 
-  MEM_free(fc2_out);
+  MEM_free(fc1_out);
 
   // Output layer
   init_layer(&model->fc3, fc3_weight_data, fc3_bias_data, FC3_IN, FC3_OUT);
