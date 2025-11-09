@@ -43,7 +43,7 @@ export BLASTEM_PATH=/path/to/blastem  # optional
 ```bash
 # Clone the repository
 git clone https://github.com/Daniel-EST/deep-genesis-mnist.git
-cd deep-genesis
+cd deep-genesis-mnist
 
 # Install dependencies using uv (recommended)
 uv sync
